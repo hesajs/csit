@@ -1,6 +1,9 @@
 #!/usr/local/bin/python3
 
-print("\n")
+'''
+WAP that takes two inputs, first a string (w) and second string (s) over some alphabet set, 
+check whether the string s is substring, proper substring or not.
+'''
 
 w = input("Enter the first string: ")
 s = input("Enter the second string: ")
@@ -17,5 +20,3 @@ elif s in substring_w:
     print("The string '{}' is proper substring of '{}'".format(s,w))
 else:
     print("The string '{}' is not a substring of '{}'".format(s,w))
-
-print("\n")
