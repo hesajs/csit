@@ -7,8 +7,8 @@ prefix_w = []
 
 if s in prefix_w:
     if s==w:
-        print("'{}' is Proper Prefix of '{}'".format(s, w))
+        print("'{}' is Improper Prefix of '{}'".format(s, w))
     else:
-        print("'{}' is Improper prefix of '{}'".format(s, w))
+        print("'{}' is Proper prefix of '{}'".format(s, w))
 else:
     print("'{}' is not prefix of '{}'".format(s, w))
